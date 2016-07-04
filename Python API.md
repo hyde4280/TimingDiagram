@@ -2,7 +2,7 @@ Python API
 =============
 
 
-The TimingAnalyzer class is the main application class. 
+The TimingDrawer class is the main application class. 
 It is assigned to the variable taApp automatically as the interpreter is initialized.
 It controls most all of the GUI related functions in the main window like multiple tabs for 
 timing diagrams, the menus, the toolbar, and the status bar.  It also controls 
@@ -11,7 +11,7 @@ that might be added in the future. Possibly a "transaction editor" diagram view,
 or "analysis reports" view.  
 
 
-TimingDiagram
+TimingDrawer
 ------------------
 
 .. autofunction:: app.get_timing_diagram(taApp)
